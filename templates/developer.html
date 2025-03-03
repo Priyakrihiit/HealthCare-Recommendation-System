@@ -1,37 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Priya - AI & ML Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
 
-  <div class="container my-4 mt-4">
-<h6>    About Junaid Khan: Your AI & ML Engineer
-</h6>
-<h5>Meet the Developer</h5>
+         .navbar {
+            background: linear-gradient(to right, #007bff, #6610f2);
+        }
 
-<p>Hello, I'm Junaid Khan, your AI and Machine Learning Engineer with over 5 years of experience in the field. I am passionate about harnessing the power of technology to make a positive impact on people's lives. Allow me to share a bit about my journey in the world of artificial intelligence and machine learning.
-</p>
-<h5>My Expertise
-</h5>
-<p>With a strong academic background in computer science and a deep fascination for AI and ML, I embarked on a journey that has taken me across the globe, working on diverse and innovative projects. Over the years, I've had the privilege of collaborating on international projects that have pushed the boundaries of what's possible in AI and ML.
-</p>
-<h5>A Commitment to Excellence
-</h5>
-<p>My work is driven by a commitment to excellence and a belief that technology should be accessible and beneficial to everyone. Whether it's developing predictive models, creating intelligent algorithms, or designing user-friendly interfaces, I strive for solutions that are both cutting-edge and user-centric.
-</p>
-<h5>Passion for Health Tech
-</h5>
-<p>The development of [Your Website Name] represents a convergence of my passion for AI and my dedication to improving healthcare accessibility. I believe that AI has the potential to transform the way we approach healthcare, making it more personalized and informative. This platform is a testament to that vision.
-</p>
-<h5>Join Me on this Journey
-</h5>
-<p>I invite you to explore [Your Website Name] and experience firsthand the fusion of AI and healthcare. Together, we can empower individuals with knowledge, promote well-being, and contribute to a brighter and healthier future.
-</p>
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+        .about-section {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+        .container-custom {
+            max-width: 900px;
+            margin: auto;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+
+                HealthCare System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/developer">Developer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 container-custom">
+        <div class="about-section">
+            <img src="your-profile-image.jpg" alt="Priya" class="profile-img">
+            <h2>Hello, I'm Priya</h2>
+            <h5>AI & ML Engineer | Data Scientist | Web Developer</h5>
+        </div>
+
+        <div class="card p-4 shadow-sm border-0">
+            <h4 class="mb-3">My Journey</h4>
+            <p>I am a passionate AI & ML Engineer, Data Scientist, and Web Developer with expertise in building intelligent solutions. With a strong background in computer science and experience in data engineering, I have worked on projects ranging from **machine learning applications** to **full-stack web development**.</p>
+        </div>
+
+        <div class="card p-4 shadow-sm border-0 mt-4">
+            <h4 class="mb-3">Expertise</h4>
+            <ul>
+                <li>Machine Learning & AI (Scikit-learn, TensorFlow, NLP)</li>
+                <li>Data Engineering (SQL, Python, Pandas, Big Data)</li>
+                <li>Web Development (Django, Flask, Bootstrap, React)</li>
+                <li>Software Development (Java, C++, Python)</li>
+            </ul>
+        </div>
+
+        <div class="card p-4 shadow-sm border-0 mt-4">
+            <h4 class="mb-3">Passion for AI & Healthcare</h4>
+            <p>I strongly believe in the transformative power of AI in healthcare. My projects, including a **medical recommendation system**, reflect my dedication to improving accessibility and empowering individuals with data-driven insights.</p>
+        </div>
+
+        <div class="card p-4 shadow-sm border-0 mt-4">
+            <h4 class="mb-3">Let’s Connect</h4>
+            <p>I love collaborating on innovative AI and web projects. Feel free to reach out and explore new possibilities in technology together!</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

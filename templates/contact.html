@@ -1,40 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container my-4 mt-4">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Priya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
 
-<h4>      Contact Us
-</h4>
-<p>Have questions or need assistance? We're here to help!
-</p>
-<h4>Customer Support
-</h4>
-<p>Our dedicated customer support team is available to assist you with any inquiries or issues you may have. Whether it's a technical question, feedback, or a general inquiry, we're just a message away.
-</p>
-<h4>Get in Touch
-</h4>
-<p>Feel free to reach out to us via email or through the contact form below. We value your feedback and are committed to providing you with the best possible experience.
-</p>
-<p><b>Email:</b> junaidmehsuud035@gmail.com</p>
-<p><b>Phone:</b> 03477155035</p>
+         .navbar {
+            background: linear-gradient(to right, #007bff, #6610f2);
+        }
 
+        .contact-section {
+            background: linear-gradient(to right, #ff512f, #dd2476);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+        .container-custom {
+            max-width: 800px;
+            margin: auto;
+        }
+        .contact-card {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #dd2476;
+            font-size: 24px;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ff512f;
+        }
+    </style>
+</head>
+<body>
 
-<h4>Stay Connected</h4>
-<p>Stay up-to-date with the latest news, updates, and health tips by following us on social media. Connect with us on Facebook or Instagram to join our growing community.
-</p>
-<h4>Location
-</h4>
-<p>Dera Ismail Khan, KPK, Pakistan</p>
+ <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
 
+                HealthCare System
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/developer">Developer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div class="container my-5 container-custom">
+        <div class="contact-section">
+            <h2>Contact Priya</h2>
+            <p>Have questions or need assistance? I'm here to help!</p>
+        </div>
 
+        <div class="card p-4 contact-card">
+            <h4 class="mb-3">Customer Support</h4>
+            <p>If you have any technical queries, feedback, or general inquiries, feel free to reach out.</p>
+        </div>
+
+        <div class="card p-4 contact-card mt-4">
+            <h4 class="mb-3">Get in Touch</h4>
+            <p><b>Email:</b> your-email@example.com</p>
+            <p><b>Phone:</b> +91 1234567890</p>
+        </div>
+
+        <div class="card p-4 contact-card mt-4">
+            <h4 class="mb-3">Stay Connected</h4>
+            <p>Follow me on social media to stay updated with my latest projects and insights.</p>
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="card p-4 contact-card mt-4">
+            <h4 class="mb-3">Location</h4>
+            <p>Muzaffarpur, Bihar, India</p>
+        </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"></script>
+</body>
 </html>
